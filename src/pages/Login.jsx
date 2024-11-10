@@ -81,7 +81,7 @@ const Login = () => {
             <input
               id="password"
               type="password"
-              placeholder="******"
+              placeholder="Your password ..."
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full p-4 border border-gray-300 rounded-lg bg-gray-100 text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-violet-500 transition duration-300"

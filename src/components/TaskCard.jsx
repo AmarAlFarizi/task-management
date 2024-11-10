@@ -5,7 +5,7 @@ const TaskCard = ({ task, onDone, onDelete }) => (
     <span className="text-white">{task.name}</span>
     <div className="flex space-x-2">
       <button onClick={() => onDone(task.id)} className="text-green-400 hover:text-green-600">
-      <img src={logo} alt="done" className="w-8 h-8 " /> {}
+      <img src={logo} alt="done" className="w-8 h-8 " /> 
       </button>
       <button onClick={() => onDelete(task.id)} className="text-green-400 hover:text-green-600">
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-6 h-6">
